@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons/lib'
 
 function Header() {
   return (
-    <Header>
+     
         <nav className='nav container row'>
             <div className="logo">
                 <a href="#" class='logo-link'><img src="" alt="" /></a>
@@ -27,14 +27,12 @@ function Header() {
                 </li>
             </ul>
             <div className="buy">
-            {/* <IconContext.Provider
-                    value={{ color: '#77BE1D', size: '25px' }}
-                    >
+           
                         <FiShoppingCart/>
-            </IconContext.Provider> */}
+     
             </div>
         </nav>
-    </Header>
+   
   )
 }
 

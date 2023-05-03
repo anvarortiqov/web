@@ -4,14 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Product from './components/Product'
+import Active from './components/Active'
+import Games from './components/Games'
+import Promo from './components/Promo'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <Header/> */}
+      <Header/>
       <Product/>
+      <Active/>
+      <Games/>
+      <Promo/>
     </>
   )
 }
